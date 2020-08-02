@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FLACOIN
+Comment=FLACOIN P2P Cryptocurrency
+Comment[fr]=FLACOIN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FLACOIN, eşten eşe kriptografik sanal para birimi
+Exec=flacoin-qt %u
+Terminal=false
+Type=Application
+Icon=flacoin128
+MimeType=x-scheme-handler/flacoin;
+Categories=Office;Finance;

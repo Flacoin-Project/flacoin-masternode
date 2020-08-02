@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  flacoind The FLACOIN core server.
+#
+#
+# chkconfig: 345 80 20
+# description: flacoind
+# processname: flacoind
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/flacoind, see below
+if [ -f /etc/sysconfig/flacoind ]; then
+        . /etc/sysconfig/flacoind
+fi
+
+RETVAL=0
+
+prog=flacoind
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/flacoind
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/flacoind}
+
+# flacoind defaults to /usr/bin/flacoind, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/flacoind}
+
+# flacoind opts default to -disablewallet, override with BITCOIND_OPTS
+bitcoind_opts=${BITCOIND_OPTS}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $bitcoind $bitcoind_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

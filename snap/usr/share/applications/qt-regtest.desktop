@@ -1,0 +1,14 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=5.2.00
+Encoding=UTF-8
+Name=Flacoin-Qt Regtest
+Icon=${SNAP}/qt-regtest.ico
+MimeType=x-scheme-handler/flacoin;
+Exec=flacoin.qt-regtest %u
+Terminal=false
+Categories=Office;Finance;
+Comment=Flacoin Core Regression Test (by FLACOIN-Project)
+Keywords=internet;flacoin;regtest;qt;crypto;currency;snap;snapcraft;FLACOIN-Project;project;daemon;cli;qt;zerocoin;zfla

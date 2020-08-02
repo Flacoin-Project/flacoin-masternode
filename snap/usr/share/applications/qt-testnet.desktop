@@ -1,0 +1,14 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=5.2.00
+Encoding=UTF-8
+Name=Flacoin-Qt Testnet
+Icon=${SNAP}/qt-testnet.ico
+MimeType=x-scheme-handler/flacoin;
+Exec=flacoin.qt-testnet --testnet %u
+Terminal=false
+Categories=Office;Finance;
+Comment=Flacoin Core Regression Test (by Flacoin-Project)
+Keywords=internet;flacoin;testnet;qt;crypto;currency;snap;snapcraft;FLACOIN-Project;daemon;cli;qt;zerocoin;zfla
