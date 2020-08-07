@@ -53,14 +53,19 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("")); //Hopefully the final checkpoint before we move to the new chain
+    (0, uint256("0xa2e427f19140424a0c02b4e6089244392b3cac894969dd94e236928578481698"))
+    (1600, uint256("0x0000002ccb39fac05bb1567e69e50f9bda0ec99040b363f2ccf0970aac8e9c16"))
+    (2800, uint256("0x00000060a65417141d80146aada416e6aff8d3d18a31790c56023e831106eb05"))
+    (3700, uint256("0x000000223d19b483cac5277924bfbb2907bb152738269769ea8e862aaf96d879"))
+    (5200, uint256("0x000000340b054a0651319a4282ed7d8bebc01e528974f1a6994cd27452e64e23"))
+    (6736, uint256("0x0000005efdedc60e5861d8db93e398cfbcbe9e65adbc1457a3559067fcf64fc1")); //Hopefully the final checkpoint before we move to the new chain
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    0, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
+    1596821827, // * UNIX timestamp of last checkpoint block
+    6922,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    0        // * estimated number of transactions per day after checkpoint
+    0.1        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -185,9 +190,9 @@ public:
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 95); // Flacoin's wallet address starts with a f
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 35); // F
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 142); // z
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 51); // M
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x05)(0x2C)(0x24)(0x43).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x05)(0x2D)(0x35)(0x5A).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x25)(0x39)(0x67)(0x91).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
@@ -203,8 +208,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04ea22754eced5252fd71def2b9f690459a8a7eb4f1335638be4723f75ae340d6b6df4b6ed29e443cb767ef38459435a3b636d2dd3baa4c6875f8f5b58e0d96930";
-        strObfuscationPoolDummyAddress = "fTR2NrtoxJ2SSPAGWR2veY4dYCjB8p4t5F";
+        strSporkKey = "04ade11314ef150e845cc4456c682142c53eb8c0d1536692aa73ab8a04a6809e2eebe7ef3daf555997d21ef9982cf35dd38123e1cf3c8ac538b4081a6b4a3d0c81";
+        strObfuscationPoolDummyAddress = "fN5YbTr75daj3CEg2V82xDDBnApH4M93uJ";
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
