@@ -530,8 +530,8 @@ void TorController::auth_cb(TorControlConnection& _conn, const TorControlReply& 
         // if -onion isn't set to something else.
         if (GetArg("-onion", "") == "") {
             CService resolved;
-            assert(LookupNumeric("127.0.0.1", resolved, 46800));
-            CService addrOnion = CService(resolved, 46800);
+            assert(LookupNumeric("127.0.0.1", resolved, 17000));
+            CService addrOnion = CService(resolved, 17000);
             SetProxy(NET_TOR, addrOnion);
             SetLimited(NET_TOR, false);
         }

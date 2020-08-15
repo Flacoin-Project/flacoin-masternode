@@ -1992,8 +1992,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;port</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Proxyport (f.eks 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Proxyport (f.eks 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -5146,8 +5146,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 kunne kun bruges på hovednettet)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5158,8 +5158,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(skal være 46800 for hovednettet)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(skal være 17000 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

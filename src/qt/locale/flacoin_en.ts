@@ -2557,8 +2557,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</source>
     </message>
     <message>
         <location line="+25"/>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Port of the proxy (e.g. 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Port of the proxy (e.g. 17000)</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -6691,8 +6691,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation type="unfinished">(46800 could be used only on mainnet)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation type="unfinished">(17000 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6706,7 +6706,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 46800 for mainnet)</source>
+        <source>(must be 17000 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

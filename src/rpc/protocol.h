@@ -30,7 +30,7 @@ enum HTTPStatusCode {
 //! FLACOIN RPC error codes
 enum RPCErrorCode {
     //! Standard JSON-RPC 2.0 errors
-    RPC_INVALID_REQUEST     = -46800,
+    RPC_INVALID_REQUEST     = -17000,
     RPC_METHOD_NOT_FOUND    = -32601,
     RPC_INVALID_PARAMS      = -32602,
     RPC_INTERNAL_ERROR      = -32603,

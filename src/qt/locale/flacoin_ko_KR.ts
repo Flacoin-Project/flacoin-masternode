@@ -1992,8 +1992,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;포트:</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>프록시 포트 (예: 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>프록시 포트 (예: 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -5147,8 +5147,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 은 메인넷에서만 사용될 수 있습니다)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5159,8 +5159,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(메인넷 일경우 46800)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(메인넷 일경우 17000)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

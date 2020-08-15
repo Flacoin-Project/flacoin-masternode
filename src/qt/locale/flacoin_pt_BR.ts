@@ -1734,8 +1734,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;Porta:</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Porta do proxy (e.g. 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Porta do proxy (e.g. 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 could be used only on mainnet)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3740,8 +3740,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(deve ser 46800 para mainnet)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(deve ser 17000 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

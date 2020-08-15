@@ -1992,8 +1992,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;Порт</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Порт прокси сервера (например: 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Порт прокси сервера (например: 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -5145,8 +5145,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 можно использовать только в сети)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 можно использовать только в сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5157,8 +5157,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(неуплата: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(должен быть 46800 для mainet)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(должен быть 17000 для mainet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

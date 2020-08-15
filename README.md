@@ -11,15 +11,15 @@ Algo Quark
 
 Max Supply 5.000.000
 
-Premine 250.000 for coinswap
+Premine 250.000
 
-RPC PORT 45300
+RPC PORT 16900
 
-PORT 46800
+PORT 17000
 
 Masternode Collateral 20,000 FLA
 
-Block Reward 1.9999 FLA
+Block Reward 3 FLA
 
 Block Reward Time 1 Minute
 

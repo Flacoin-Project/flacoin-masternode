@@ -1927,8 +1927,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>Port:</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Port du proxy (ex: 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Port du proxy (ex: 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>

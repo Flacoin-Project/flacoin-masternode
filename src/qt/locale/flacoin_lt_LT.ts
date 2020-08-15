@@ -1926,8 +1926,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;Prievadas (angl. port):</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Proxy prievadas (pvz. 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Proxy prievadas (pvz. 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>

@@ -1744,8 +1744,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Port of the proxy (e.g. 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Port of the proxy (e.g. 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -4166,8 +4166,8 @@ for example: alertnotify=echo %%s | mail -s "FLACOIN Alert" admin@foo.com
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 could be used only on mainnet)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4178,8 +4178,8 @@ for example: alertnotify=echo %%s | mail -s "FLACOIN Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(must be 46800 for mainnet)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(must be 17000 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

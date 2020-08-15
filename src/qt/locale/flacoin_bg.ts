@@ -1988,8 +1988,8 @@ https://www.transifex.com/flacoin-project/flacoin-project-translations</translat
         <translation>&amp;Порт:</translation>
     </message>
     <message>
-        <source>Port of the proxy (e.g. 46800)</source>
-        <translation>Порт за проксито (например 46800)</translation>
+        <source>Port of the proxy (e.g. 17000)</source>
+        <translation>Порт за проксито (например 17000)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -5130,8 +5130,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Трябва да зададете masternodeprivkey в конфигурационния файл. Консултирайте се с документацията за повече помощ.</translation>
     </message>
     <message>
-        <source>(46800 could be used only on mainnet)</source>
-        <translation>(46800 може да се ползва само в mainnet)</translation>
+        <source>(17000 could be used only on mainnet)</source>
+        <translation>(17000 може да се ползва само в mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5142,8 +5142,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(по подразбиране: 1)</translation>
     </message>
     <message>
-        <source>(must be 46800 for mainnet)</source>
-        <translation>(трябва да е 46800 за mainnet)</translation>
+        <source>(must be 17000 for mainnet)</source>
+        <translation>(трябва да е 17000 за mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
