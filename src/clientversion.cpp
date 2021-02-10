@@ -46,8 +46,8 @@ const std::string CLIENT_NAME("Flacoin Core");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "fc4a5b54f0618efa4ab85c4a737bf79a5b977dbd"
-#define GIT_COMMIT_DATE "Sat, 15 Ago 2020 10:30 BRT"
+#define GIT_COMMIT_ID "c3e0f641cb73d567aea4020d66451dc02aa82266"
+#define GIT_COMMIT_DATE "Tue, 10 Feb 2021 10:49 BRT"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
