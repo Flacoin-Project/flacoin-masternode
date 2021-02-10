@@ -1815,7 +1815,7 @@ int64_t GetBlockValue(int nHeight)
     if (nMoneySupply >= Params().MaxMoneyOut())
         return 0 * COIN;
     
-    if (nHeight == 1) {
+    if (nHeight == 0) {
         nSubsidy = 250000 * COIN;
     } else if (nHeight < 50000 && nHeight >= 0) {
         nSubsidy = 3 * COIN;
