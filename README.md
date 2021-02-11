@@ -25,6 +25,11 @@ Block Reward Time 1 Minute
 
 PoS Breakdow 75% Masternodes / 25% Stakers
 
+Nodes: 
+addnode=178.238.227.217
+addnode=109.49.7.226
+addnode=144.91.104.184
+
 SITE: https://flacoin.org
 
 DISCORD: https://discord.gg/yFDWtE3
